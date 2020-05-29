@@ -1,0 +1,365 @@
+body {
+  background: white;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+}
+
+p {
+
+  color:black;
+}
+
+
+h3{
+
+  color:black;
+
+}
+
+h4{
+
+  color:#ad1d92;
+}
+
+.text {
+
+color:black
+
+}
+
+
+.sestMeseci{
+
+  font-size: 15px;
+
+}
+
+select{
+
+margin-top: 30px;
+ background-color:#f3f3f4;
+ color:black;
+ font-family: "Roboto",sans-serif;
+ border-color: #f3f3f4;
+ hover:#ad1d92;
+
+}
+
+select:hover{
+
+  background-color: #ad1d92;
+  color:white;
+
+}
+
+option:hover{
+
+background-color: #ad1d92;
+color:red;
+
+}
+
+.imeGlavno{
+ height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  font-size: 48px;
+      font-family: "Calps",sans-serif;
+      line-height: 1.15;
+      font-style: italic;
+      -webkit-text-fill-color: #ad1d92;
+      letter-spacing: -1.2px;
+      font-weight: 700;
+      text-align: center;
+      padding: 18px 0px 3px 0px;
+
+
+}
+
+.sadrzajPaketa{
+
+   height: 544px;
+   padding: 30px 0px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.tvSadrzaj{
+
+   height: 187.2px;
+   display: flex;
+   align-items: center;
+   color:black;
+   text-align:left;
+
+}
+.netSadrzaj{
+   border-top: 1px solid #dddddd;
+   height: 160px;
+   display: flex;
+   align-items: center;
+   color:black;
+   text-align:left;
+
+}
+
+.promocijaKomp{
+
+display: flex;
+flex-direction: row;
+align-items: left;
+
+}
+
+.ikonica{
+
+height: 100px;
+width: 100px;
+
+}
+.titl{
+
+  font-size: 50px;
+}
+
+.tvPromoSlika{
+  height: 180px;
+  width: 180px;
+
+}
+
+.tekstPromocije{
+
+  margin-top: 100px;
+  margin-left: 20px;
+  color:#ad1d92;
+
+}
+
+
+
+.opcije{
+
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    margin-left: 40px;
+
+
+}
+
+.dugmeNarucite{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#ad1d92;
+  font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 0;
+    margin-top: 10px;
+
+}
+
+.promocija{
+  height: 187.2px
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.sveCene{
+
+    font-size: 28px;
+    font-family: "Calps", sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #ad1d92;
+    font-style: italic;
+    margin-top: 50px;
+
+}
+
+.sveCeneZajedno{
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.glavneCene{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.staraCena{
+
+position: relative;
+text-decoration: line-through;
+}
+
+.trenutnaCena{
+
+  padding: 0px 10px;
+  letter-spacing: -1.2px;
+}
+
+
+/* media tag ukoliko je sirina ekrana 1366px ili veca */
+@media screen and (min-width: 1366px) {
+
+  .glavniPrikaz{
+   margin-left: 30px;
+   margin-right: 30px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   max-width: 1360px;
+   padding: 30px;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      box-sizing: border-box;
+
+  }
+  .paketGlavni{
+
+     margin-top:30px;
+     margin-left: 25px;
+     width: 100%;
+     min-width: 100px;;
+     max-width: 768px;
+     background-color: #f3f3f4;
+     border-radius: 40px;
+     padding: 15px 30px 30px 30px
+
+
+  }
+
+}
+
+/* media tag ukoliko je sirina ekrana 768px ili manja */
+  @media screen and (max-width: 768px) {
+
+    body {
+      background: white;
+      width: 500px;
+      margin-left: 100px;
+    }
+
+    .glavniPrikaz{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 30px;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        box-sizing: border-box;
+
+    }
+    .paketGlavni{
+
+       margin-top:30px;
+       margin-left: 25px;
+       width: 100%;
+       min-width: 100px;;
+       max-width: 768px;
+       background-color: #f3f3f4;
+       border-radius: 40px;
+       padding: 15px 30px 30px 30px
+
+
+    }
+
+/* media tag ukoliko je sirina ekrana 320px ili manja */
+    @media screen and (max-width: 320px) {
+
+      body {
+        background: white;
+        width: 310px;
+        margin-left: 3px;
+      }
+
+      .glavniPrikaz{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding: ;
+          font-size: 100%;
+          vertical-align: baseline;
+          background: transparent;
+          box-sizing: border-box;
+
+      }
+      .paketGlavni{
+
+         margin-top:30px;
+         margin-left: 25px;
+         width: 100%;
+         min-width: 100px;;
+         max-width: 768px;
+         background-color: #f3f3f4;
+         border-radius: 40px;
+         padding: 15px 30px 30px 30px
+
+
+      }
+      .imeGlavno{
+       height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        font-size: 30px;
+            font-family: "Calps",sans-serif;
+            line-height: 1.15;
+            font-style: italic;
+            -webkit-text-fill-color: #ad1d92;
+            letter-spacing: -1.2px;
+            font-weight: 700;
+            text-align: center;
+            padding: 18px 0px 3px 0px;
+
+
+      }
+      .ikonica{
+
+      height: 70px;
+      width: 70px;
+
+      }
+      .tvPromoSlika{
+        margin-top:60px;
+        height: 90px;
+        width: 120px;
+      }
+
+}
